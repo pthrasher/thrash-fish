@@ -14,6 +14,4 @@ set VCPROMPT_FORMAT '%n:%b%m%u'
 set VIRTUALFISH_COMPAT_ALIASES 'on'
 set GREP_OPTIONS '--color=auto'
 
-nvm current > /dev/null
-
 set PATH $PATH (yarn global bin)

@@ -1,0 +1,1 @@
+alias gpull "git pull"

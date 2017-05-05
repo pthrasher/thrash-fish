@@ -1,0 +1,31 @@
+#!/usr/local/bin/fish
+
+touch gcam.fish
+touch groot.fish
+touch gpush.fish
+touch pull.fish
+touch push.fish
+touch gpud.fish
+touch __fish_git_branches.fish
+touch __fish_git_tags.fish
+touch __fish_git_heads.fish
+touch __fish_git_remotes.fish
+touch __fish_git_ranges.fish
+touch __fish_git_needs_command.fish
+touch __fish_git_using_command.fish
+touch gst.fish
+touch gpo.fish
+touch gpull.fish
+touch gco.fish
+touch gca.fish
+touch gc.fish
+touch gignored.fish
+touch gg.fish
+touch gaa.fish
+touch mpy.fish
+touch mpys.fish
+touch mpydbs.fish
+touch mpyrs.fish
+touch mpym.fish
+touch mpysm.fish
+touch mpysma.fish
