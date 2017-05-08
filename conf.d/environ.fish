@@ -7,7 +7,7 @@ set -x ARCHFLAGS -Wno-error=unused-command-line-argument-hard-error-in-future
 
 # export is required for these I think.
 set -x BASEGOPATH $GOPATH
-set -x EDITOR 'atom -nw'
+set -x EDITOR 'vim'
 
 set NODE_PATH /usr/local/lib/node_modules $NODE_PATH
 set VCPROMPT_FORMAT '%n:%b%m%u'
