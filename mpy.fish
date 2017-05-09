@@ -1,3 +1,1 @@
-function mpy
-  python manage.py
-end
+alias mpy "python manage.py"
