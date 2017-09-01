@@ -1,0 +1,1 @@
+alias agq 'ag -Q'
