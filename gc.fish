@@ -1,1 +1,3 @@
-alias gc "git commit -v"
+function gc
+  git commit -v $argv
+end

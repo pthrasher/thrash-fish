@@ -1,1 +1,3 @@
-alias mpy "python manage.py"
+function mpy
+  python manage.py $argv
+end

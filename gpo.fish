@@ -1,1 +1,3 @@
-alias gpo "git push origin"
+function gpo
+  git push origin $argv
+end

@@ -1,1 +1,4 @@
-alias gca "git commit -avm"
+function gca
+  gc -am $argv
+end
+

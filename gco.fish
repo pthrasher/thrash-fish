@@ -1,1 +1,3 @@
-alias gco "git checkout"
+function gco
+  git checkout $argv
+end

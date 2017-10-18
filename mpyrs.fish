@@ -1,3 +1,3 @@
 function mpyrs
-  mpy runserver
+  mpy runserver $argv
 end

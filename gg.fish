@@ -1,1 +1,3 @@
-alias gg "git log --oneline --abbrev-commit --all --graph --decorate --color"
+function gg
+  git log --oneline --abbrev-commit --all --graph --decorate --color
+end

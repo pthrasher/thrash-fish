@@ -1,1 +1,3 @@
-alias gaa "git add --all ."
+function gaa
+  git add --all .
+end

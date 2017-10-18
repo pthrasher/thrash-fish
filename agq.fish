@@ -1,1 +1,3 @@
-alias agq 'ag -Q'
+function agq
+  ag -Q $argv
+end

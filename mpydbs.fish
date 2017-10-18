@@ -1,3 +1,3 @@
 function mpydbs
-  mpy dbshell
+  mpy dbshell $argv
 end

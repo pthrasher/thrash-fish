@@ -1,1 +1,3 @@
-alias gst "git status"
+function gst
+  git status $argv
+end

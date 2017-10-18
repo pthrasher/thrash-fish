@@ -1,3 +1,3 @@
 function mpysma
-  mpy schemamigration --auto
+  mpysm --auto $argv
 end

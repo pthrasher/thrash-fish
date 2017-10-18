@@ -1,3 +1,3 @@
 function mpys
-  mpy shell
+  mpy shell $argv
 end

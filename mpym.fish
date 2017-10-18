@@ -1,3 +1,3 @@
 function mpym
-  mpy migrate
+  mpy migrate $argv
 end

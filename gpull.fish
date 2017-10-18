@@ -1,1 +1,3 @@
-alias gpull "git pull"
+function gpull
+  git pull $argv
+end

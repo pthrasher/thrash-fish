@@ -1,4 +1,4 @@
-function push -d "git push the branch you're on"
+function opush -d "git push the branch you're on"
   set __branch (git branch --no-color | grep '*' | head -n1 | awk '{print $2}')
   if [ $__branch = 'master' ]
     echo 'You must explicitly type `git push origin master`'

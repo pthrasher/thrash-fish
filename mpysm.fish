@@ -1,3 +1,3 @@
 function mpysm
-  mpy schemamigration
+  mpy schemamigration $argv
 end
