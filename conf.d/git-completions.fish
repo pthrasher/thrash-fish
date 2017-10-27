@@ -6,7 +6,6 @@ complete -f -c gco -a '(__fish_git_tags)' --description 'tag'
 complete -f -c gco -s b -d 'Create a new branch'
 complete -f -c gco -s t -l track -d 'Track a new branch'
 
-
 ### git pull aliases completion
 complete -f -c gpull -s q -l quiet -d 'Be quiet'
 complete -f -c gpull -s v -l verbose -d 'Be verbose'

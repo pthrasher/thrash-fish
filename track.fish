@@ -4,5 +4,5 @@ function track
   else
     set __remote $argv[2]
   end
-  echo $argv[1] $__remote/$argv[1]
+  git checkout -b $argv[1] $__remote/$argv[1]
 end
