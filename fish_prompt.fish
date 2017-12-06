@@ -9,9 +9,9 @@ function fish_prompt
   
   if [ $TERM_PROGRAM != 'Hyper' ]
     echo -n (basename (prompt_pwd))
-    set_color $fish_color_cwd
-    echo -n ': '
-    # echo -e "\e[00m"
-    set_color normal
   end
+  
+  set_color $fish_color_cwd
+  echo -n ': '
+  set_color normal
 end
