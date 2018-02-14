@@ -1,8 +1,11 @@
 function grx_auth
-  if begin; test (count $argv) -gt 1; and test -d $argv[2]; end
-    set -l __hostname $argv[2]
+  if test (count $argv) -gt 1
+    set __hostname $argv[2]
   else
-    set -l __hostname "localhost:8000"
+    set __hostname "localhost:8000"
   end
-  curl -L -d "{\"email\": \""$argv[1]"\", \"password\": \"password\"}" -H "Content-Type: application/json" -X POST "http://"$__hostname"/api/aaa/api-token-auth/" | sed -e 's/^.*"token":"\([^"]*\)".*$/\1/' | awk '{print "JWT "$1}' | pbcopy
+  set -l __url 'http://'$__hostname'/api/aaa/api-token-auth/'
+  set -l __data '{"email": "'$argv[1]'", "password": "password"}'
+  curl -L -d $__data -H 'Content-Type: application/json' -X POST $__url | sed -e 's/^.*"token":"\([^"]*\)".*$/\1/' | awk '{print "JWT "$1}' | pbcopy
+  echo "Token copied to clipboard."
 end
