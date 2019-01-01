@@ -1,6 +1,7 @@
 set PATH /usr/local/sbin $PATH
 set PATH /usr/local/bin $PATH
 set PATH $HOME/bin $PATH
+set PATH /Applications/Visual\ Studio\ Code.app/Contents/Resources/app/bin $PATH
 
 # Un-fuck xcode's bullshitty shitty-ness.
 set -x ARCHFLAGS -Wno-error=unused-command-line-argument-hard-error-in-future
