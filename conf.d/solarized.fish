@@ -46,32 +46,32 @@ set -l green   "green"
 # http://fishshell.com/docs/2.0/index.html#variables-color
 
 # Solarized Dark
-# set -g fish_color_normal      $base0
-# set -g fish_color_command     $base0
-# set -g fish_color_quote       $cyan
-# set -g fish_color_redirection $base0
-# set -g fish_color_end         $base0
-# set -g fish_color_error       $red
-# set -g fish_color_param       $blue
-# set -g fish_color_comment     $base01
-# set -g fish_color_match       $cyan
-# set -g fish_color_search_match "--background=$base02"
-# set -g fish_color_operator    $orange
-# set -g fish_color_escape      $cyan
-
-# Solarized Light
-set -g fish_color_normal      $base00
-set -g fish_color_command     $base00
+set -g fish_color_normal      $base0
+set -g fish_color_command     $base0
 set -g fish_color_quote       $cyan
-set -g fish_color_redirection $base00
-set -g fish_color_end         $base00
+set -g fish_color_redirection $base0
+set -g fish_color_end         $base0
 set -g fish_color_error       $red
 set -g fish_color_param       $blue
-set -g fish_color_comment     $base1
+set -g fish_color_comment     $base01
 set -g fish_color_match       $cyan
-set -g fish_color_search_match "--background=$base2"
+set -g fish_color_search_match "--background=$base02"
 set -g fish_color_operator    $orange
 set -g fish_color_escape      $cyan
+
+# Solarized Light
+# set -g fish_color_normal      $base00
+# set -g fish_color_command     $base00
+# set -g fish_color_quote       $cyan
+# set -g fish_color_redirection $base00
+# set -g fish_color_end         $base00
+# set -g fish_color_error       $red
+# set -g fish_color_param       $blue
+# set -g fish_color_comment     $base1
+# set -g fish_color_match       $cyan
+# set -g fish_color_search_match "--background=$base2"
+# set -g fish_color_operator    $orange
+# set -g fish_color_escape      $cyan
 
 # Used by fish_prompt
 
