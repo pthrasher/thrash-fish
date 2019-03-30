@@ -14,7 +14,6 @@ nvm use --silent default
 
 set NODE_PATH /usr/local/lib/node_modules $NODE_PATH
 set VCPROMPT_FORMAT '%n:%b%m%u'
-set VIRTUALFISH_COMPAT_ALIASES 'on'
 set GREP_OPTIONS '--color=auto'
 
 set PATH $PATH (yarn global bin)
