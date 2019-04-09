@@ -10,10 +10,6 @@ set -x ARCHFLAGS -Wno-error=unused-command-line-argument-hard-error-in-future
 set -x BASEGOPATH $GOPATH
 set -x EDITOR 'vim'
 
-nvm use --silent default
-
-set NODE_PATH /usr/local/lib/node_modules $NODE_PATH
 set VCPROMPT_FORMAT '%n:%b%m%u'
 set GREP_OPTIONS '--color=auto'
 
-set PATH $PATH (yarn global bin)
