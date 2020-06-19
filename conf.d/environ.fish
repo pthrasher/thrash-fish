@@ -16,4 +16,5 @@ set GREP_OPTIONS '--color=auto'
 set -x GK_SSH_HOST clsomimx6@key.thrasher.network
 set -x GK_SSH_KEY ~/.ssh/gkd
 set -x GK_SKIP_KERNEL yes
+set -x GK_SSH_NO_REBOOT yes
 
