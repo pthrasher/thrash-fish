@@ -17,5 +17,5 @@ set -x GK_SSH_HOST clsomimx6@key.thrasher.network
 set -x GK_SSH_KEY ~/.ssh/gkd
 set -x GK_SSH_NO_REBOOT yes
 
-source "(brew --prefix asdf)"/asdf.fish
+source /usr/local/opt/asdf/asdf.fish
 
