@@ -1,4 +1,4 @@
-set PATH -gx $HOME/bin /usr/local/bin /usr/local/sbin $PATH $HOME/.krew/bin
+set PATH -gx $HOME/bin /usr/local/bin /usr/local/sbin $PATH $HOME/.krew/bin $HOME/.cargo/bin
 
 # Un-fuck xcode's bullshitty shitty-ness.
 # set -x ARCHFLAGS -Wno-error=unused-command-line-argument-hard-error-in-future
